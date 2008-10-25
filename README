@@ -1,0 +1,44 @@
+App-ZofCMS-Plugin-Debug-Dumper
+
+The module is a small debugging plugin for L<App::ZofCMS>. It uses L<Data::Dumper> to
+make dumps of 5 things and sticks them into C<{t}> ZofCMS template key so you could display
+the dumps in your L<HTML::Template> template for debugging purposes.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc App::ZofCMS::Plugin::Debug::Dumper
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-ZofCMS-Plugin-Debug-Dumper
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/App-ZofCMS-Plugin-Debug-Dumper
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/App-ZofCMS-Plugin-Debug-Dumper
+
+    Search CPAN
+        http://search.cpan.org/dist/App-ZofCMS-Plugin-Debug-Dumper
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 'Zoffix
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+

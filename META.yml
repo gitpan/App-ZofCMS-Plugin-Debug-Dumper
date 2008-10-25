@@ -1,0 +1,22 @@
+---
+name: App-ZofCMS-Plugin-Debug-Dumper
+version: 0.0101
+author:
+  - "Zoffix <'zoffix@cpan.org'>"
+abstract: 'small debugging plugin that Data::Dumper::Dumper()s interesting portions into {t}'
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Data::Dumper: 0
+  HTML::Entities: 1.35
+build_requires:
+  Test::More: 0
+provides:
+  App::ZofCMS::Plugin::Debug::Dumper:
+    file: lib/App/ZofCMS/Plugin/Debug/Dumper.pm
+    version: 0.0101
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
