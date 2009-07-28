@@ -1,5 +1,8 @@
 Revision history for App-ZofCMS-Plugin-Debug-Dumper
 
+0.0102  July 27, 2009
+        Added t/01-plugin.t test
+
 0.0101  October 25, 2008
         First version, released on an unsuspecting world.
 

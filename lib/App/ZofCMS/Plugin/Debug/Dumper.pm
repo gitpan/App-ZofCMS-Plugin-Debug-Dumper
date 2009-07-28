@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::Debug::Dumper;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 use Data::Dumper;
 use HTML::Entities qw/encode_entities/;
 
