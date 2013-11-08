@@ -13,7 +13,9 @@ my $builder = Module::Build->new(
     requires => {
         'Data::Dumper' => 0,
         'HTML::Entities' => 1.35,
+        perl             => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-Debug-Dumper-*' ],
     create_makefile_pl => 'traditional',
 );

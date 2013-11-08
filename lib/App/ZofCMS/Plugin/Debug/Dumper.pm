@@ -3,9 +3,9 @@ package App::ZofCMS::Plugin::Debug::Dumper;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 use Data::Dumper;
-use HTML::Entities qw/encode_entities/;
+use HTML::Entities (qw/encode_entities/);
 
 sub new { bless {}, shift }
 
@@ -58,6 +58,8 @@ sub process {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
